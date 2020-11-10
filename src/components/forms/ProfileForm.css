@@ -1,0 +1,10 @@
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 91vh;
+}
+
+.MuiFormHelperText-root {
+    color: red !important;
+}

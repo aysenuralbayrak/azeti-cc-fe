@@ -54,3 +54,14 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
+
+## Docker
+You can either build Docker image locally or use existing image from Docker Hub.
+
+### Build
+`docker build -t azeti-code-challenge .`
+
+### Run
+`docker run --rm -d -p 8080:80 runesia/azeti-code-challenge`
+
+
